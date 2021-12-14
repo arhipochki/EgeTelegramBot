@@ -8,6 +8,6 @@ namespace EgeBot
 {
     internal class Config
     {
-        static public string Token = "5045309265:AAE8NVBh-k_kFVLqmklW3Rkpv4qiMNnBRqg";
+        static public string Token = "";
     }
 }
