@@ -1,0 +1,75 @@
+{
+    "0": {
+        "Theme":  "",
+        "Question": "",
+        "Answer": "",
+        "Cards": [],
+        "FilePath": ""
+    },
+    "1": {
+        "Theme": "Russia",
+        "Question": "2Who was a 1st president of Russia?",
+        "Answer": "Elcin",
+        "Cards": [
+            "Elcin",
+            "Putin",
+            "Gorbachev"
+        ],
+        "FilePath": "C:\\Users\\lexan\\source\\repos\\EgeBot\\EgeBot\\Questions\\imgs\\1.jpg"
+    },
+    "2": {
+        "Theme": "AO",
+        "Question": "2AAA OOO",
+        "Answer": "AAAOOO",
+        "Cards": [
+            "AAA",
+            "OOO",
+            "AAAOOO"
+        ],
+        "FilePath": "C:\\Users\\lexan\\source\\repos\\EgeBot\\EgeBot\\Questions\\imgs\\2.jpg"
+    },
+    "3": {
+        "Theme": "Dicks",
+        "Question": "2Nice Dick",
+        "Answer": "Big Balls",
+        "Cards": [
+            "Nice Cock",
+            "Bruh",
+            "Ok",
+            "WTF am I doin'?",
+            "Big Balls"
+        ],
+        "FilePath": "C:\\Users\\lexan\\source\\repos\\EgeBot\\EgeBot\\Questions\\imgs\\3.jpg"
+    },
+    "4": {
+        "Theme": "Mem",
+        "Question": "Hahah, Lol",
+        "Answer": "LUL",
+        "Cards": [
+            "PogChamp",
+            "Kappa",
+            "KappaPride",
+            "LUL"
+        ],
+        "FilePath": "C:\\Users\\lexan\\source\\repos\\EgeBot\\EgeBot\\Questions\\imgs\\4.png"
+    },
+    "5": {
+        "Theme": "NoPics",
+        "Question": "No pics, sry",
+        "Answer": "Shit",
+        "Cards": [
+            "Shit",
+            "Shit",
+            "Shit"
+        ],
+        "FilePath": "C:\\Users\\lexan\\source\\repos\\EgeBot\\EgeBot\\Questions\\imgs\\5.png"
+    },
+    "6": {
+        "Theme": "Chemistry",
+        "Question": "Выберите все реакции",
+        "Answer": "123",
+        "Cards": [
+        ],
+        "FilePath": "C:\\Users\\lexan\\source\\repos\\EgeBot\\EgeBot\\Questions\\imgs\\6.png"
+    }
+}
