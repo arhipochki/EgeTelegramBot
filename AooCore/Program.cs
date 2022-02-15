@@ -7,6 +7,8 @@ using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.InputFiles;
 using Telegram.Bot.Types.ReplyMarkups;
 
+Config.SetConfig(args);
+
 var botClient = new TelegramBotClient(Config.Token);
 
 using var cts = new CancellationTokenSource();
@@ -21,7 +23,7 @@ Dictionary<long, ChatData> connectedUsers = new Dictionary<long, ChatData>();
 botClient.StartReceiving(
     HandleUpdateAsync,
     HandleErrorAsync,
-    receiverOptions,
+    receiverOptions: receiverOptions,
     cancellationToken: cts.Token);
 
 var me = await botClient.GetMeAsync();

@@ -30,7 +30,7 @@ namespace EgeBot
 
         protected string ChooseDataBase()
         {
-            var count = Directory.GetFiles("Questions/");
+            var count = Directory.GetFiles(Config.FilePath);
 
             return count[_rand.Next(count.Length)];
         }
