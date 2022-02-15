@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
         self.addBtn.setGeometry(QtCore.QRect(470, 250, 101, 32))
         self.addBtn.setObjectName("addBtn")
         self.removeBtn = QtWidgets.QPushButton(self.centralwidget)
-        self.removeBtn.setGeometry(QtCore.QRect(120, 250, 81, 32))
+        self.removeBtn.setGeometry(QtCore.QRect(60, 250, 81, 32))
         self.removeBtn.setObjectName("removeBtn")
         self.openFileBtn = QtWidgets.QPushButton(self.centralwidget)
         self.openFileBtn.setGeometry(QtCore.QRect(630, 210, 61, 32))
@@ -65,7 +65,12 @@ class Ui_MainWindow(object):
         self.explanationLineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.explanationLineEdit.setGeometry(QtCore.QRect(420, 170, 201, 31))
         self.explanationLineEdit.setObjectName("explanationLineEdit")
+        self.editBtn = QtWidgets.QPushButton(self.centralwidget)
+        self.editBtn.setGeometry(QtCore.QRect(170, 250, 81, 32))
+        self.editBtn.setObjectName("editBtn")
         MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 699, 21))
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 699, 24))
         self.menubar.setObjectName("menubar")
@@ -79,6 +84,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Data Builder"))
@@ -91,3 +97,4 @@ class Ui_MainWindow(object):
         self.filePathLabel.setText(_translate("MainWindow", "FilePath"))
         self.themeLabel.setText(_translate("MainWindow", "Theme"))
         self.explanationLabel.setText(_translate("MainWindow", "Explanation"))
+        self.editBtn.setText(_translate("MainWindow", "Edit"))
